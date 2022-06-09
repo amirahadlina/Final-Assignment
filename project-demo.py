@@ -29,6 +29,7 @@ st.subheader('User Input parameters')
 st.write(df)
 pd.read_iris.csv(https://raw.githubusercontent.com/amirahadlina/Final-Assignment/main/IRIS.csv)
 iris = datasets.load_iris()
+iris.loc[:,['
 X = iris.data
 Y = iris.target
 
