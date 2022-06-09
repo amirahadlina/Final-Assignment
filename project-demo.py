@@ -38,8 +38,8 @@ prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
-pip install tabulate
-from tabulate import tabulate
+pip install project-demo.py
+from project-demo.py import tabulate
 flower = [["0", setosa],
           ["1", versicolor],
           ["2", virginica]
