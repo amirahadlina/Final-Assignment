@@ -41,7 +41,7 @@ st.subheader('Class labels and their corresponding index number')
 st.table(["setosa", "versicolor", "virginica"])
 
 date = st.date_input("Your Birthday")
-image = st.camera_input("Take a Picture")
+st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Iris_%28plant%29.jpg/640px-Iris_%28plant%29.jpg")
   
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
