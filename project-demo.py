@@ -41,6 +41,7 @@ st.subheader('Class labels and their corresponding index number')
 st.table(["setosa", "versicolor", "virginica"])
 
 date = st.date_input("Your Birthday")
+image = st.camera_input("Take a Picture")
   
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
