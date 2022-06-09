@@ -38,12 +38,10 @@ prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
-pip install project-demo.py
-from project-demo.py import tabulate
-flower = [["0", setosa],
+
+df = pd.DataFrame(table_data, columns = ["0", setosa],
           ["1", versicolor],
-          ["2", virginica]
-print (tabulate(flower))
+          ["2", virginica])
   
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
