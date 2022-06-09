@@ -41,7 +41,7 @@ st.subheader('Class labels and their corresponding index number')
 flower = {'setosa',
         'virginica',
         'versicolor'}
-features = pd.DataFrame(flower, index=[0])
+features = pd.DataFrame(flower)
 
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
