@@ -42,8 +42,7 @@ flower = [["0", setosa],
           ["1", versicolor],
           ["2", virginica]
 col_names = ["Index", "Flower types"]
-print(tabulate(flower, headers=col_names))
-          
+print(tabulate(flower, headers=col_names))   
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
 st.write(prediction)
