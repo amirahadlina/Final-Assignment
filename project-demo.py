@@ -39,6 +39,8 @@ prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
 st.table(["setosa", "versicolor", "virginica"])
+
+date = st.date_input("Your Birthday")
   
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
