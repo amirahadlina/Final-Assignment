@@ -41,8 +41,9 @@ st.subheader('Class labels and their corresponding index number')
 flower = [["0", setosa],
           ["1", versicolor],
           ["2", virginica]
-print(tabulate(flower, tablefmt="fancy_grid"))
-
+col_names = ["Index", "Flower types"]
+print(tabulate(flower, headers=col_names))
+          
 st.subheader('Prediction')
 #st.write(iris.target_names[prediction])
 st.write(prediction)
