@@ -40,7 +40,7 @@ prediction_proba = clf.predict_proba(df)
 st.subheader('Class labels and their corresponding index number')
 st.table(["setosa", "versicolor", "virginica"])
 
-date = st.date_input("Husbaby's Birthday")
+
 st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Iris_%28plant%29.jpg/640px-Iris_%28plant%29.jpg")
   
 st.subheader('Prediction')
