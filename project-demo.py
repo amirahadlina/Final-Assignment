@@ -38,8 +38,7 @@ prediction = clf.predict(df)
 prediction_proba = clf.predict_proba(df)
 
 st.subheader('Class labels and their corresponding index number')
-st.table(predictor;["setosa", "versicolor", "virginica"])
-
+st.table(predictor,["setosa", "versicolor", "virginica"])
 
 st.image("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Iris_%28plant%29.jpg/640px-Iris_%28plant%29.jpg")
   
